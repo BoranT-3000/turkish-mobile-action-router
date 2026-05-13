@@ -1,0 +1,33 @@
+{
+  "train_rows": 11568,
+  "test_rows": 1286,
+  "before": {
+    "samples": 50.0,
+    "tool_accuracy": 0.0,
+    "args_exact_accuracy": 0.0,
+    "both_accuracy": 0.0,
+    "json_valid_rate": 0.96
+  },
+  "after": {
+    "samples": 1286.0,
+    "tool_accuracy": 0.9743390357698289,
+    "args_exact_accuracy": 0.8297045101088647,
+    "both_accuracy": 0.8297045101088647,
+    "json_valid_rate": 0.9992223950233281
+  },
+  "tool_distribution": {
+    "ask_clarification": 1686,
+    "call_contact": 1327,
+    "change_device_setting": 1455,
+    "create_note": 666,
+    "create_reminder": 663,
+    "open_app": 1251,
+    "request_confirmation": 206,
+    "search_web": 901,
+    "send_message": 1717,
+    "set_alarm": 879,
+    "set_timer": 1141,
+    "start_navigation": 962
+  },
+  "errors_after_path": "errors_qwen_after_finetune.csv"
+}
